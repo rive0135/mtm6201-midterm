@@ -54,6 +54,10 @@ nav{
     width: auto;
 }
 
+.overlay{
+    position: relative;
+}
+
 /* Navigation Bar Animation */
 
 /* Navigation Bar Animation End */
