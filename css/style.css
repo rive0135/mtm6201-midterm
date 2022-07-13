@@ -33,20 +33,14 @@ nav{
 
 .navpages{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    
-}
-
-.navpages ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    padding: 1rem;
+    flex-direction: column;
 }
 
 .navpages li{
     padding: 1rem;
+    list-style-type: none;
+    text-align: center;
 }
 
 .navpages a{
@@ -58,12 +52,23 @@ nav{
 .navpages img{
     height: 100px;
     width: auto;
-    margin-right: 2rem;
+}
+
+/* Navigation Bar Animation */
+
+/* Navigation Bar Animation End */
+
+nav a:hover{
+    text-decoration: underline;
 }
 
 /* Navigation Bar Settings End */
 
 /* Navigation Bar Overlay */
+
+.nav-overlay{
+    color:#fff;
+}
 
 /* Do Navigation Bar Overlay Tommorow and the rest is easy */
 
@@ -120,6 +125,29 @@ footer img{
 /* Desktop Version */
 
 @media screen and (min-width: 760px){
+
+/* Navigation Settings */
+
+.navpages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navpages ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.navpages img{
+    height: 100px;
+    width: auto;
+    margin-right: 2rem;
+}
+
+/* Navigation Settings End */
 
 /* Footer Desktop Settings */
 
