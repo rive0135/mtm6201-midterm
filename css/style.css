@@ -1,3 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: black;
+    /* background-color: black; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6{
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.site-wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Navigation Bar Settings */
+
+nav{
+    background-color: #26232B;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navpages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.navpages ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.navpages li{
+    padding: 1rem;
+}
+
+.navpages a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.navpages img{
+    height: 100px;
+    width: auto;
+    margin-right: 2rem;
+}
+
+/* Navigation Bar Settings End */
+
+/* Navigation Bar Overlay */
+
+/* Do Navigation Bar Overlay Tommorow and the rest is easy */
+
+/* Navigation Bar Overlay End */
+
+/* Banner Settings */
+
+.banner{
+    width: 100%;
+    height: 50vh;
+    background-image: url(/assets/images/home-banner.jpg);
+    position: relative;
+    background-size: cover;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.2);
+    height: 50vh;
+}
+
+/* Banner Settings End */
+
+/* Footer Settings */
+
+footer a{
+    text-decoration: none;
+    color: #D2303B;
+}
+
+footer{
+    background-color: #26232B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.top{
+    color:#D2303B;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+footer img{
+    height: 100px;
+    width: auto;
+    margin-bottom: 3rem;
+}
+
+/* Footer Settings End */
+
+/* Desktop Version */
+
+@media screen and (min-width: 760px){
+
+/* Footer Desktop Settings */
+
+/* Footer dissapears when desktop mode */
+
+.top{
+    display: none;
+}
+
+footer img{
+    display: none;
+}
+
+/* Footer Desktop Settings End */
+
 }
