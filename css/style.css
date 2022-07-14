@@ -27,8 +27,6 @@ h6{
 
 nav{
     background-color: #26232B;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
 }
 
 .navpages{
@@ -163,7 +161,11 @@ nav a:hover{
     margin: auto;
 }
 
-.card h1, a{
+.card h1{
+    padding: 1rem;
+}
+
+.card a{
     padding: 1rem;
 }
 
