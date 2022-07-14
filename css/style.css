@@ -108,9 +108,9 @@ nav a:hover{
     background-size: cover;
 }
 
-/* Service Page Banner */
+/* Contact Page Banner */
 
-.service-banner{
+.contact-banner{
     max-width: 100%;
     height: 50vh;
     background-image: url("../images/contact-banner.jpg");
@@ -163,7 +163,11 @@ nav a:hover{
     margin: auto;
 }
 
-.card h1, p, a{
+.card h1, a{
+    padding: 1rem;
+}
+
+.card p{
     padding: 1rem;
 }
 
@@ -222,38 +226,28 @@ nav a:hover{
 /* ABOUT STYLE END */
 
 
-/* SERVICES STYLE */
+/* CONTACT STYLE */
 
-/* SERVICE CONTENTS */
+/* CONTACT CONTENTS */
 
-.services-content h2{
+.contact-content h2{
     color: #D2303B;
     padding-bottom: 1rem;  
 }
 
-.services-content{
+.contact-content{
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
-.services-content p{
+.contact-content p{
     padding-bottom: 1rem;
 }
-
-.services-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 /* iframe google maps */
 
 iframe{
-    /* width: 100%; */
-    padding-left: 1rem;
-    padding-right: 1rem;
-    /* height: auto; */
+    width: 100%;
+    margin: auto;
 }
 
 /* Contact Section Table Settings */
@@ -261,7 +255,7 @@ iframe{
 /* Added a table instead to make it look nice rather than using 4 <br> on a <p> tag */
 
 table{
-    width: 90%;
+    width: 100%;
     border-collapse: collapse;
 }
 
