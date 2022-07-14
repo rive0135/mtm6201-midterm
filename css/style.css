@@ -126,7 +126,10 @@ nav a:hover{
 
 .overlay{
     background: rgba(0, 0, 0, 0.2);
-    height: 50vh;
+}
+
+.overlay h1{
+    margin: auto;
 }
 
 /* Banner Settings End */
@@ -195,6 +198,8 @@ nav a:hover{
     height:350px;
     width: 450px;
     object-fit: cover;
+    /* Drop shadow behind image */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .about-content h2{
