@@ -1,11 +1,10 @@
 *{
-    margin: 0;
+    margin: auto;
     padding:0;
     box-sizing: border-box;
 }
 
 body{
-    /* background-color: black; */
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -87,6 +86,8 @@ nav a:hover{
 
 /* Banner Settings */
 
+/* Home Banner */
+
 .banner{
     max-width: 100%;
     height: 50vh;
@@ -95,6 +96,8 @@ nav a:hover{
     background-size: cover;
 }
 
+/* Meet the Team Page Banner */
+
 .about-banner{
     max-width: 100%;
     height: 50vh;
@@ -102,6 +105,8 @@ nav a:hover{
     position: relative;
     background-size: cover;
 }
+
+/* Service Page Banner */
 
 .service-banner{
     max-width: 100%;
@@ -146,7 +151,7 @@ nav a:hover{
 }
 
 .card{
-    width: 100%;
+    width: 50%;
 }
 
 /* Primary Button Settings */
@@ -191,14 +196,18 @@ nav a:hover{
 .about-content h2{
     color: #D2303B;
     padding-bottom: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.about-content p{
+    text-align: center;
 }
 
 .about-content{
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 1rem;
-    text-align: center;
 }
 
 /* ABOUT STYLE END */
@@ -268,6 +277,10 @@ table td{
 footer a{
     text-decoration: none;
     color: #D2303B;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
 
 footer{
