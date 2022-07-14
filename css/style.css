@@ -95,6 +95,14 @@ nav a:hover{
     background-size: cover;
 }
 
+.about-banner{
+    max-width: 100%;
+    height: 50vh;
+    background-image: url("../images/team-banner.jpg");
+    position: relative;
+    background-size: cover;
+}
+
 .service-banner{
     max-width: 100%;
     height: 50vh;
@@ -169,6 +177,31 @@ nav a:hover{
 
 /* Home Site Content Style End */
 
+
+/* ABOUT STYLE */
+
+/* About contents */
+
+.about-content img{
+    height:350px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.about-content h2{
+    color: #D2303B;
+    padding-bottom: 1rem;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* ABOUT STYLE END */
 
 
 /* SERVICES STYLE */
