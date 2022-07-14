@@ -1,5 +1,5 @@
 *{
-    margin:0;
+    margin: 0;
     padding:0;
     box-sizing: border-box;
 }
@@ -20,7 +20,6 @@ h6{
 
 .site-wrapper {
     max-width: 1200px;
-    margin: auto;
 }
 
 /* Navigation Bar Settings */
@@ -54,9 +53,17 @@ nav{
     width: auto;
 }
 
-/* .overlay{
+.overlay{
     position: absolute;
-} */
+    width: 100%;
+    height: 50vh;
+}
+
+.overlay h1{
+    text-align: center;
+    margin-top: auto;
+    color: #fff;
+}
 
 /* Navigation Bar Animation */
 
@@ -153,6 +160,65 @@ nav a:hover{
 }
 
 /* Home Site Content Style End */
+
+
+
+/* SERVICES STYLE */
+
+/* SERVICE CONTENTS */
+
+.services-content h2{
+    color: #D2303B;
+    padding-bottom: 1rem;  
+}
+
+.services-content{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.services-content p{
+    padding-bottom: 1rem;
+}
+
+.services-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* iframe google maps */
+
+iframe{
+    /* width: 100%; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* height: auto; */
+}
+
+/* Contact Section Table Settings */
+
+/* Added a table instead to make it look nice rather than using 4 <br> on a <p> tag */
+
+table{
+    width: 90%;
+    border-collapse: collapse;
+}
+
+table th{
+    border: 1px solid #26232B;
+    padding: 1rem;
+    background-color: #26232B;
+    color: #fff;
+}
+
+table td{
+    border: 1px solid;
+    padding: 1rem;
+}
+
+/* SERVICES STYLE END */
 
 
 
