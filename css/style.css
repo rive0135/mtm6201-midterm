@@ -36,6 +36,8 @@ nav{
 }
 
 .navpages li{
+    padding-left: 1rem;
+    padding-right: 1rem;
     list-style-type: none;
     text-align: center;
 }
@@ -336,7 +338,6 @@ footer img{
     .navpages img{
         height: 100px;
         width: auto;
-        margin-right: 2rem;
     }
 
     /* Navigation Settings End */
