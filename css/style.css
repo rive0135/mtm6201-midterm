@@ -342,6 +342,15 @@ footer img{
 
     /* Navigation Settings End */
 
+    /* About Desktop Settings */
+
+    .about-content{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* About Desktop Settings End */
+
     /* Footer Desktop Settings */
 
     /* Footer dissapears when desktop mode */
