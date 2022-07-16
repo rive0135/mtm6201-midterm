@@ -166,7 +166,10 @@ nav a:hover{
 }
 
 .card a{
-    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .card p{
@@ -339,6 +342,18 @@ footer img{
     }
 
     /* Navigation Settings End */
+
+    /* Home Page Desktop Settings */
+
+    .home-site{
+        display: flex;
+    }
+
+    .home-site:nth-child(2){
+        flex-direction: row-reverse;
+    }
+
+    /* Home Page Desktop Settings End */
 
     /* About Desktop Settings */
 
