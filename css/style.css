@@ -36,8 +36,7 @@ nav{
 }
 
 .navpages li{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
     list-style-type: none;
     text-align: center;
 }
@@ -235,10 +234,6 @@ nav a:hover{
 
 .contact-content h2{
     color: #D2303B;
-    padding-bottom: 1rem;  
-}
-
-.contact-content{
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -250,7 +245,6 @@ nav a:hover{
 
 iframe{
     width: 100%;
-    margin: auto;
 }
 
 /* Contact Section Table Settings */
@@ -272,6 +266,10 @@ table th{
 table td{
     border: 1px solid;
     padding: 1rem;
+}
+
+.contact-section{
+    display: none;
 }
 
 /* SERVICES STYLE END */
@@ -350,6 +348,65 @@ footer img{
     }
 
     /* About Desktop Settings End */
+
+    /* Contact Desktop Settings */
+
+    .contact-section{
+        display: contents;
+    }
+
+    .contact-content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+    }
+
+    .contact-container{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    /* section line inbetween contact info and forms */
+    .divider{
+        border-bottom: #26232B 1px solid;
+    }
+
+    .contact-section textarea{
+        width: 100%;
+        padding: 8px;
+        margin-top: 6px;
+    }
+
+    .contact-section input{
+        width: 100%;
+        padding: 8px;
+        margin-top: 6px;
+    }
+
+    .send{
+        margin-top: 1rem;
+        text-align: end;
+    }
+
+    .send a{
+        color: #fff;
+        text-decoration: none;
+        background-color: #D2303B;
+        border-radius: 3px;
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 8px;
+        padding-bottom: 8px;  
+        transition:  .3s;      
+    }
+
+    .send a:hover{
+       background-color: #26232B;
+    }
+
+    /* Contact Desktop Settings End */
 
     /* Footer Desktop Settings */
 
